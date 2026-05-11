@@ -37,7 +37,7 @@ st.markdown("""
 @st.cache_data
 def load_and_train():
     try:
-        df = pd.read_csv('C:\\Users\\QUYNH ANH\\Videos\\Captures\\Project_4\\data.csv')
+        df = pd.read_csv('data.csv')
         # Mapping từ khóa
         mapping = {
             'people': 'người', 'area': 'diện tích', 'floor': 'tầng',
